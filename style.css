@@ -73,14 +73,24 @@ main {
 }
 
 main h2 {
+    margin: 10px;
     padding: 5px;
     font-family: var(--fonte-titulo-branco);
     background-image: linear-gradient(to right, var(--cor1), var(--cor3), var(--cor4));
     border-radius: 10px;
 }
 
+main h3 {
+    margin: 20px 40px 20px 80px;
+    padding: 5px;
+    font-family: var(--fonte-padrao);
+    border-radius: 10px;
+}
+
 main p {
+    margin-left: 20px;
     padding: 10px;
+    text-indent: 40px;
 }
 
 footer {
@@ -99,4 +109,14 @@ footer {
 
 .jukebox-image {
     padding: 0px 8px;
+}
+
+.album {
+    width: 100%;
+    height: 100%;
+}
+
+#jamesbrown {
+    background-image: url("/images/James\ Brown.jpg");
+    background-size: 100px 100px;
 }
