@@ -73,7 +73,7 @@ main {
 }
 
 main h2 {
-    margin: 10px;
+    margin: 10px 0px;
     padding: 5px;
     font-family: var(--fonte-titulo-branco);
     background-image: linear-gradient(to right, var(--cor1), var(--cor3), var(--cor4));
@@ -81,15 +81,18 @@ main h2 {
 }
 
 main h3 {
-    margin: 20px 40px 20px 80px;
-    padding: 5px;
+    padding: 10px;
+    margin: 10px;
     font-family: var(--fonte-padrao);
     border-radius: 10px;
 }
 
 main p {
-    margin-left: 20px;
-    padding: 10px;
+    font-family: var(--fonte-padrao);
+    margin: 15px 0px;
+    line-height: 2em;
+    font-size: 1em;
+    text-align: justify;
     text-indent: 40px;
 }
 
@@ -111,12 +114,25 @@ footer {
     padding: 0px 8px;
 }
 
-.album {
+div.album {
+    margin: auto;
     width: 100%;
-    height: 100%;
+    height: 300px;
+    border: 1px solid black;
+    border-radius: 10px;
 }
 
-#jamesbrown {
-    background-image: url("/images/James\ Brown.jpg");
-    background-size: 100px 100px;
+div#jamesbrown {
+    background: black url("../Discotheque/images/James\ Brown.jpg") top center no-repeat fixed;
+    background-size: cover;
+}
+
+div#jimmy {
+    background: black url("../Discotheque/images/jacksonfive.jpeg") top center no-repeat fixed;
+    background-size: cover;
+}
+
+div#beegees {
+    background: black url("../Discotheque/images/bee\ gees.jpg") top center no-repeat fixed;
+    background-size: cover;
 }
